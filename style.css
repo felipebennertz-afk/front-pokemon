@@ -1,0 +1,252 @@
+* {
+    font-family: "Arial";
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(196, 196, 196);
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+header p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+.logo {
+    padding-left: 40px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 30px;
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+.btn {
+    padding-right: 40px;
+}
+
+header nav {
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    width: 30%;
+}
+
+.botao_preto {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 2vh;
+}
+
+main {
+    margin-top: 6%;
+}
+
+section {
+    width: auto;
+    height: auto;
+}
+
+.torne {
+    display: flex;
+    justify-content: space-between;
+}
+
+.torne img {
+    width: 50%;
+}
+
+aside {
+    width: 50%;
+    text-align: left;
+    align-content: center;
+}
+
+.texto_esquerda {
+    justify-self: center;
+    text-align: center;
+}
+
+.texto_esquerda h1 {
+    font-size: 35px; 
+    margin-bottom: 50px;
+}
+
+.btns {
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+}
+
+.botao_branco {
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 2vh;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.prepare {
+    padding-top: 10px;
+    background-color: rgb(196, 196, 196);
+    justify-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cards img {
+    width: 300px;
+}
+
+.destaque {
+    justify-items: center;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.frente {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+}
+
+.frente img {
+    width: 250px;
+    height: 325px;
+    border-radius: 2vh;
+    z-index: 1;
+}
+
+.frente :hover {
+    opacity: 0%;
+    transition: 0.5s;
+}
+
+.verso {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.verso img {
+    width: 250px;
+    border-radius: 2vh;
+    height: 325px;
+}
+
+.escolha {
+    justify-items: center;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: rgb(196, 196, 196);
+}
+
+.escolha ul {
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+}
+
+.escolha ul li{
+    list-style: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.escolha ul :hover {
+    transition: 0.5s;
+    background-color: rgb(77, 97, 165);
+}
+
+.fogo {
+    background-color: red;
+}
+
+.agua {
+    background-color: aqua;
+}
+
+.planta {
+    background-color: chartreuse;
+}
+
+.eletrico {
+    background-color: gold;
+}
+
+.psiquico {
+    background-color: blueviolet;
+}
+
+.pedra {
+    background-color: darkgray;
+}
+
+.pronto {
+    justify-items: center;
+    padding-top: 10px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(196, 196, 196);
+    justify-content: space-between;
+}
+
+footer nav {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.redes {
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.redes img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
